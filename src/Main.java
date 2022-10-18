@@ -16,10 +16,9 @@ public class Main {
         human4.name = "Артем";
         human4.town = "Москва";
         human4.yearOfBirth = 1995;
-        System.out.println( "Привет! Меня зовут " + human1.name +". Я из города " + human1.town + ". Я родился в " + human1.yearOfBirth + " году." );
-        System.out.println( "Привет! Меня зовут " + human2.name +". Я из города " + human2.town + ". Я родился в " + human2.yearOfBirth + " году." );
-        System.out.println( "Привет! Меня зовут " + human3.name +". Я из города " + human3.town + ". Я родилась в " + human3.yearOfBirth + " году." );
-        System.out.println( "Привет! Меня зовут " + human4.name +". Я из города " + human4.town + ". Я родился в " + human4.yearOfBirth + " году." );
-
+        System.out.println("Привет! Меня зовут " + human1.name + ". Я из города " + human1.town + ". Я родился в " + human1.yearOfBirth + " году.");
+        System.out.println("Привет! Меня зовут " + human2.name + ". Я из города " + human2.town + ". Я родился в " + human2.yearOfBirth + " году.");
+        System.out.println("Привет! Меня зовут " + human3.name + ". Я из города " + human3.town + ". Я родилась в " + human3.yearOfBirth + " году.");
+        System.out.println("Привет! Меня зовут " + human4.name + ". Я из города " + human4.town + ". Я родился в " + human4.yearOfBirth + " году.");
     }
 }
