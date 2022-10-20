@@ -4,9 +4,15 @@ public class Main {
         Human human2 = new Human(1992, "Аня", "Москва", "методист образовательных программ");
         Human human3 = new Human(1994, "Катя", "Калининград", "продакт-менеджер");
         Human human4 = new Human(1995, "Артем", "Москва", "директор по развитию бизнеса");
-        System.out.println("Привет! Меня зовут " + human1.name + ". Я из города " + human1.town + ". Я родился в " + human1.yearOfBirth + " году. Я работаю на должности " + human1.job + ". Будем знакомы!");
-        System.out.println("Привет! Меня зовут " + human2.name + ". Я из города " + human2.town + ". Я родилась в " + human2.yearOfBirth + " году. Я работаю на должности " + human2.job + ". Будем знакомы!");
-        System.out.println("Привет! Меня зовут " + human3.name + ". Я из города " + human3.town + ". Я родилась в " + human3.yearOfBirth + " году. Я работаю на должности " + human3.job + ". Будем знакомы!");
-        System.out.println("Привет! Меня зовут " + human4.name + ". Я из города " + human4.town + ". Я родился в " + human4.yearOfBirth + " году. Я работаю на должности " + human4.job + ". Будем знакомы!");
+        Human human5 = new Human(2001, "Владимир", "Казань", "безработный");
+        printInfo(human1);
+        printInfo(human2);
+        printInfo(human3);
+        printInfo(human4);
+        printInfo(human5);
+    }
+
+    private static void printInfo(Human human) {
+        System.out.println("Привет! Меня зовут " + human.name + ". Я из города " + human.getTown() + ". Я родился в " + human.getYearOfBirth() + " году. Я работаю на должности " + human.job + ". Будем знакомы!");
     }
 }
