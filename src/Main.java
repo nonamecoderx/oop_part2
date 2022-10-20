@@ -11,7 +11,7 @@ public class Main {
         printInfo(human4);
         printInfo(human5);
     }
-
+//dz2.1
     private static void printInfo(Human human) {
         System.out.println("Привет! Меня зовут " + human.name + ". Я из города " + human.getTown() + ". Я родился в " + human.getYearOfBirth() + " году. Я работаю на должности " + human.job + ". Будем знакомы!");
     }
